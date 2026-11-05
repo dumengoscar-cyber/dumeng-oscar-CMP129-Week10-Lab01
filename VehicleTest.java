@@ -16,7 +16,7 @@ System.out.println();
 truck1.displayInfo();
 truck1.displayType();
 System.out.println();
-
+//creates trucks and cars for info
  Car car2 = new Car("honda", "crv", 2006);
 Truck truck2 = new Truck("honda", "ridgeline", 2019);
 
@@ -27,12 +27,12 @@ System.out.println();
 truck2.displayInfo();
 truck2.displayType();
 System.out.println();
-
+//getter gives initial year
 System.out.println("original year" + car1.getYear());
 
 car1.setYear(2015);
 car1.setModel("sonata");
-
+//displays new info and sets it
 System.out.println("updated car information");
 car1.displayInfo();
 
